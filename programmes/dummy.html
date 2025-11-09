@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore ScriptySphere's transformative programmes for children and youth - from coding & digital skills to leadership development and innovation.">
+  <meta name="keywords" content="youth programmes, child education, coding, digital skills, leadership, innovation, Bangladesh, ScriptySphere">
+  <meta name="author" content="ScriptySphere">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Our Programmes - ScriptySphere">
+  <meta property="og:description" content="Empowering children and youth through technology, education, and innovation programmes.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.scriptysphere.org/programmes/">
+  <meta property="og:image" content="https://www.scriptysphere.org/assets/img/programmes-og.webp">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Our Programmes - ScriptySphere">
+  <meta name="twitter:description" content="Empowering children and youth through technology, education, and innovation programmes.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/programmes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0EA5E9">
+  
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  
+  <title>Our Programmes - ScriptySphere</title>
+  
+  <!-- Schema.org markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "ScriptySphere",
+    "url": "https://www.scriptysphere.org",
+    "description": "Youth-led organization empowering children and youth through technology and education",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "BD"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+  
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  
+  <!-- Hero Section -->
+  <section class="programmes-hero">
+    <div class="hero-bg">
+      <canvas id="particleCanvas"></canvas>
+      <div class="gradient-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="hero-content">
+        <div class="logo-container" data-aos="fade-down">
+          <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <circle cx="100" cy="100" r="90" fill="url(#logoGradient)" opacity="0.1"/>
+            <path d="M60 80 L100 60 L140 80 L140 120 L100 140 L60 120 Z" fill="url(#logoGradient)" opacity="0.3"/>
+            <circle cx="100" cy="100" r="30" fill="url(#logoGradient)"/>
+            <path d="M85 100 L95 110 L115 85" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h1 class="logo-text gradient-text">ScriptySphere</h1>
+        </div>
+        
+        <h2 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+          Our <span class="gradient-text">Programmes</span>
+        </h2>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+          Empowering children and youth through innovative learning experiences
+        </p>
+        
+        <!-- Filter Pills -->
+        <div class="filter-container" data-aos="fade-up" data-aos-delay="300">
+          <button class="filter-pill active" data-filter="all">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+            </svg>
+            All Programmes
+          </button>
+          <button class="filter-pill" data-filter="child">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            Child Focus
+          </button>
+          <button class="filter-pill" data-filter="youth">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+            Youth Focus
+          </button>
+          <button class="filter-pill" data-filter="tech">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+            Technology
+          </button>
+          <button class="filter-pill" data-filter="creative">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            Creative
+          </button>
+        </div>
+        
+        <!-- Search Bar -->
+        <div class="search-container" data-aos="fade-up" data-aos-delay="400">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search programmes...">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card glass-card" data-aos="fade-up">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="8.5" cy="7" r="4"/>
+              <line x1="20" y1="8" x2="20" y2="14"/>
+              <line x1="23" y1="11" x2="17" y2="11"/>
+            </svg>
+          </div>
+          <div class="stat-number" data-count="300">0</div>
+          <div class="stat-label">Active Members</div>
+        </div>
+        
+        <div class="stat-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="stat-number" data-count="50">0</div>
+          <div class="stat-label">Programmes Running</div>
+        </div>
+        
+        <div class="stat-card glass-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+          </div>
+          <div class="stat-number" data-count="5000">0</div>
+          <div class="stat-label">Lives Impacted</div>
+        </div>
+        
+        <div class="stat-card glass-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="stat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+              <line x1="12" y1="22.08" x2="12" y2="12"/>
+            </svg>
+          </div>
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-label">Partner Organizations</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Programmes Grid -->
+  <section class="programmes-section">
+    <div class="container">
+      <div id="programmesGrid" class="programmes-grid"></div>
+      
+      <!-- No Results Message -->
+      <div id="noResults" class="no-results" style="display: none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <h3>No programmes found</h3>
+        <p>Try adjusting your filters or search query</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content glass-card" data-aos="fade-up">
+        <h2 class="cta-title">Ready to Make an Impact?</h2>
+        <p class="cta-text">Join ScriptySphere and be part of Bangladesh's digital future</p>
+        <div class="cta-buttons">
+          <a href="/community/members.html" class="btn btn-primary btn-glow">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="8.5" cy="7" r="4"/>
+              <line x1="20" y1="8" x2="20" y2="14"/>
+              <line x1="23" y1="11" x2="17" y2="11"/>
+            </svg>
+            Join Community
+          </a>
+          <a href="/contact/" class="btn btn-secondary">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.min.js"></script>
+  <script src="/assets/js/programmes.js"></script>
+</body>
+</html>

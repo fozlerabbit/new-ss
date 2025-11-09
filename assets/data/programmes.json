@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Literacy Bootcamp",
+    "summary": "Empowering youth with coding and cybersecurity skills for the digital age. Learn programming fundamentals, web development, and online safety.",
+    "category": "Coding",
+    "image": "/assets/img/programmes/bootcamp.webp",
+    "duration": "8 weeks",
+    "level": "Beginner",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Innovation Fellowship",
+    "summary": "A 6-month journey of mentorship and tech-driven solutions. Work on real-world projects while receiving guidance from industry experts.",
+    "category": "Leadership",
+    "image": "/assets/img/programmes/fellowship.webp",
+    "duration": "6 months",
+    "level": "Intermediate",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Web Development Masterclass",
+    "summary": "Master modern web development with HTML, CSS, JavaScript, and popular frameworks. Build responsive, accessible websites.",
+    "category": "Coding",
+    "image": "/assets/img/programmes/webdev.webp",
+    "duration": "12 weeks",
+    "level": "Beginner to Intermediate",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Design Thinking Workshop",
+    "summary": "Learn to solve problems creatively using design thinking methodology. Ideal for aspiring designers and innovators.",
+    "category": "Design",
+    "image": "/assets/img/programmes/design.webp",
+    "duration": "4 weeks",
+    "level": "All Levels",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "Entrepreneurship Accelerator",
+    "summary": "Turn your ideas into viable businesses. Learn business planning, pitching, marketing, and fundraising strategies.",
+    "category": "Entrepreneurship",
+    "image": "/assets/img/programmes/entrepreneur.webp",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development",
+    "summary": "Create native and cross-platform mobile applications. Learn iOS and Android development using modern tools.",
+    "category": "Coding",
+    "image": "/assets/img/programmes/mobile.webp",
+    "duration": "16 weeks",
+    "level": "Intermediate to Advanced",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "title": "Data Science Fundamentals",
+    "summary": "Explore data analysis, visualization, and machine learning basics. Perfect introduction to the world of data science.",
+    "category": "Coding",
+    "image": "/assets/img/programmes/datascience.webp",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "title": "Youth Leadership Programme",
+    "summary": "Develop essential leadership skills, communication abilities, and project management expertise for future leaders.",
+    "category": "Leadership",
+    "image": "/assets/img/programmes/leadership.webp",
+    "duration": "8 weeks",
+    "level": "All Levels",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "title": "Graphic Design Essentials",
+    "summary": "Master the fundamentals of graphic design. Learn industry-standard tools like Adobe Photoshop and Illustrator.",
+    "category": "Design",
+    "image": "/assets/img/programmes/graphics.webp",
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "link": "#"
+  }
+]
+

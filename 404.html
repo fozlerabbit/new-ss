@@ -1,0 +1,284 @@
+<!-- ========================================
+     FILE: /404.html
+     ======================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The page you are looking for could not be found - ScriptySphere">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="404 - Page Not Found | ScriptySphere">
+  <meta property="og:description" content="The page you’re looking for doesn’t exist or has been moved.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.scriptysphere.org/404.html">
+  <meta property="og:image" content="https://www.scriptysphere.org/assets/img/404.webp">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.scriptysphere.org/404.html">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/assets/img/logo.webp">
+  <link rel="apple-touch-icon" href="/assets/img/logo.webp">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/404.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0EA5E9">
+
+  <title>404 - Page Not Found | ScriptySphere</title>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "404 - Page Not Found",
+    "description": "The page you are looking for could not be found on ScriptySphere.",
+    "url": "https://www.scriptysphere.org/404.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "ScriptySphere",
+      "url": "https://www.scriptysphere.org"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <div data-include="header"></div>
+
+
+
+
+  <!-- 404 Container -->
+  <div class="error-container">
+    
+    <!-- Background Animation -->
+    <canvas id="particleCanvas" class="particle-bg"></canvas>
+    <div class="gradient-bg"></div>
+    
+    <!-- Logo -->
+    <div class="error-logo">
+      <a href="/" aria-label="Return to ScriptySphere homepage">
+        <img src="/assets/img/logo.webp" alt="ScriptySphere Logo" width="60" height="60">
+        <span class="logo-text gradient-text">ScriptySphere</span>
+      </a>
+    </div>
+    
+    <!-- Error Content -->
+    <div class="error-content">
+      
+      <!-- Animated 404 -->
+      <div class="error-number">
+        <span class="digit digit-4-1">4</span>
+        <span class="digit digit-0">
+          <svg class="astronaut-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            <path d="M2 12h20"/>
+          </svg>
+        </span>
+        <span class="digit digit-4-2">4</span>
+      </div>
+      
+      <!-- Error Messages -->
+      <h1 class="error-title">Oops! Page Not Found</h1>
+      <p class="error-description">
+        The page you're looking for seems to have wandered off into the digital universe. 
+        Don't worry, we'll help you find your way back!
+      </p>
+      
+      <!-- Error Icon Animation -->
+      <div class="floating-icons">
+        <div class="icon-wrapper icon-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+          </svg>
+        </div>
+        <div class="icon-wrapper icon-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+        </div>
+        <div class="icon-wrapper icon-3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+        </div>
+      </div>
+      
+      <!-- Search Box -->
+      <div class="error-search">
+        <form id="searchForm" class="search-form" role="search">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input 
+              type="search" 
+              placeholder="Search for what you need..." 
+              aria-label="Search"
+              class="search-input"
+              id="searchInput"
+            >
+            <button type="submit" class="search-btn" aria-label="Submit search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+      
+      <!-- Quick Links -->
+      <div class="quick-links">
+        <h2 class="quick-links-title">Popular Pages</h2>
+        <div class="links-grid">
+          <a href="/" class="link-card">
+            <div class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              </svg>
+            </div>
+            <div class="link-content">
+              <h3>Home</h3>
+              <p>Return to homepage</p>
+            </div>
+          </a>
+          
+          <a href="/about/" class="link-card">
+            <div class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="16" x2="12" y2="12"/>
+                <line x1="12" y1="8" x2="12.01" y2="8"/>
+              </svg>
+            </div>
+            <div class="link-content">
+              <h3>About Us</h3>
+              <p>Learn about our mission</p>
+            </div>
+          </a>
+          
+          <a href="/programmes/" class="link-card">
+            <div class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <line x1="9" y1="3" x2="9" y2="21"/>
+              </svg>
+            </div>
+            <div class="link-content">
+              <h3>Programmes</h3>
+              <p>Explore our initiatives</p>
+            </div>
+          </a>
+          
+          <a href="/community/members.html" class="link-card">
+            <div class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <div class="link-content">
+              <h3>Community</h3>
+              <p>Join our network</p>
+            </div>
+          </a>
+          
+          <a href="/blog/" class="link-card">
+            <div class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+              </svg>
+            </div>
+            <div class="link-content">
+              <h3>Blog</h3>
+              <p>Read our articles</p>
+            </div>
+          </a>
+          
+          <a href="/contact/" class="link-card">
+            <div class="link-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <div class="link-content">
+              <h3>Contact</h3>
+              <p>Get in touch with us</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Action Buttons -->
+      <div class="error-actions">
+        <a href="/" class="btn btn-primary btn-glow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+          </svg>
+          <span>Back to Home</span>
+        </a>
+        <button onclick="history.back()" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="19" y1="12" x2="5" y2="12"/>
+            <polyline points="12 19 5 12 12 5"/>
+          </svg>
+          <span>Go Back</span>
+        </button>
+      </div>
+      
+      <!-- Help Section -->
+      <div class="help-section">
+        <div class="help-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          <div>
+            <h3>Need Help?</h3>
+            <p>If you believe this is an error, please <a href="/contact/">contact us</a></p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- Error Code Display -->
+    <div class="error-code">
+      <p>Error Code: 404 | Page Not Found</p>
+      <p class="error-path">Requested URL: <span id="currentPath"></span></p>
+    </div>
+    
+  </div>
+
+  <!-- Footer -->
+  <div data-include="footer"></div>
+
+  <!-- Scripts -->
+  <script type="module" src="/assets/js/404.js"></script>
+  <script type="module" src="/assets/js/header.js"></script>
+  <script type="module" src="/assets/js/footer.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
+
+</body>
+</html>

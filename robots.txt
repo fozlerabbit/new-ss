@@ -1,0 +1,24 @@
+# ========================================
+# FILE: /robots.txt
+# SEO & Crawl Optimised for ScriptySphere
+# ========================================
+
+User-agent: *
+# Allow main content
+Allow: /
+
+# Disallow non-indexable or utility paths
+Disallow: /assets/
+Disallow: /partials/
+Disallow: /tmp/
+Disallow: /404.html
+
+# Optional: prevent indexing of scripts and CSS if you want
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Sitemap location
+Sitemap: https://www.scriptysphere.org/sitemap.xml
+
+# Crawl delay (optional, useful for shared hosting)
+# Crawl-delay: 5

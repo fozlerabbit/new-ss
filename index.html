@@ -1,0 +1,568 @@
+<!-- ========================================
+     FILE: /index.html
+     ======================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ScriptySphere – Empowering youth and children through technology, education, and innovation in Bangladesh.">
+  <meta name="keywords" content="youth innovation, technology education, Bangladesh, ScriptySphere, digital literacy, coding, youth empowerment">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="ScriptySphere">
+  <meta name="language" content="en-BD">
+  <meta name="geo.region" content="BD">
+  <meta name="geo.placename" content="Bangladesh">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ScriptySphere - Scripting the Future of Bangladesh">
+  <meta property="og:description" content="A youth-led organisation empowering the next generation through technology and innovation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.scriptysphere.org">
+  <meta property="og:image" content="https://www.scriptysphere.org/assets/img/hero.webp">
+  <meta property="og:site_name" content="ScriptySphere">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ScriptySphere - Scripting the Future of Bangladesh">
+  <meta name="twitter:description" content="Empowering youth through technology, education, and innovation.">
+  <meta name="twitter:image" content="https://www.scriptysphere.org/assets/img/hero.webp">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.scriptysphere.org">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/assets/img/logo.webp">
+  <link rel="apple-touch-icon" href="/assets/img/logo.webp">
+
+  <!-- Preload Critical Assets -->
+  <link rel="preload" href="/assets/img/hero.webp" as="image">
+  <link rel="dns-prefetch" href="https://www.scriptysphere.org">
+  <link rel="preconnect" href="https://www.scriptysphere.org" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/home.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0EA5E9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="ScriptySphere">
+
+  <title>ScriptySphere - Scripting the Future of Bangladesh</title>
+
+  <!-- JSON-LD: Organisation Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ScriptySphere",
+    "url": "https://www.scriptysphere.org",
+    "logo": "https://www.scriptysphere.org/assets/img/logo.webp",
+    "description": "Youth-led Bangladeshi organisation empowering youth and children through technology, education, and innovation.",
+    "email": "ScriptySphere@gmail.com",
+    "telephone": "+8801600-374396",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Bangladesh"
+    },
+    "sameAs": [
+      "https://facebook.com/scriptysphere",
+      "https://twitter.com/scriptysphere",
+      "https://linkedin.com/company/scriptysphere"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: WebSite Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ScriptySphere",
+    "url": "https://www.scriptysphere.org",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.scriptysphere.org/search?q={query}",
+      "query-input": "required name=query"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: FAQ Schema (AEO optimisation) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What is ScriptySphere?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ScriptySphere is a youth-led organisation in Bangladesh promoting digital literacy, innovation, and technology education among young people."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How does ScriptySphere empower youth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ScriptySphere empowers youth through coding bootcamps, community projects, mentorship programmes, and technology-driven initiatives."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+
+
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header (loaded from partial) -->
+  <div data-include="header"></div>
+
+
+  <!-- Animated Background -->
+  <div class="animated-background">
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+    <div class="floating-shape shape-4"></div>
+    <div class="floating-shape shape-5"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <canvas class="particle-canvas" id="particleCanvas"></canvas>
+    
+    <div class="hero-container">
+      <div class="hero-badge" data-aos="fade-down">
+        <span class="badge-dot"></span>
+        <span class="badge-text">Child & Youth Led Organization</span>
+      </div>
+      
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+        <span class="title-line">Let's Script the</span>
+        <span class="title-line gradient-text-animated">Future of Bangladesh</span>
+      </h1>
+      
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+        Empowering children and youth through education, technology, child rights, 
+        women empowerment, and social progress. Building a safe, inclusive, and sustainable Bangladesh.
+      </p>
+      
+      <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+        <button class="btn btn-primary ripple-effect">
+          <span>Explore Programmes</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        
+        <button class="btn btn-secondary ripple-effect">
+          <span>Join Us Today</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Animated Stats -->
+      <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+        <div class="stat-item">
+          <div class="stat-icon">👥</div>
+          <div class="stat-content">
+            <span class="stat-number" data-count="300">0</span>
+            <span class="stat-label">Active Members</span>
+          </div>
+        </div>
+        
+        <div class="stat-item">
+          <div class="stat-icon">📚</div>
+          <div class="stat-content">
+            <span class="stat-number" data-count="50">0</span>
+            <span class="stat-label">Programmes</span>
+          </div>
+        </div>
+        
+        <div class="stat-item">
+          <div class="stat-icon">🎓</div>
+          <div class="stat-content">
+            <span class="stat-number" data-count="5000">0</span>
+            <span class="stat-label">Students</span>
+          </div>
+        </div>
+        
+        <div class="stat-item">
+          <div class="stat-icon">🌍</div>
+          <div class="stat-content">
+            <span class="stat-number" data-count="8">0</span>
+            <span class="stat-label">Divisions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="500">
+      <span>Scroll to explore</span>
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission Section -->
+  <section class="vision-mission-section" id="vision">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who We Are</span>
+        <h2 class="section-title">Our Vision & <span class="gradient-text">Mission</span></h2>
+      </div>
+      
+      <div class="vm-grid">
+        <div class="vm-card vision-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="vm-icon-wrapper">
+            <div class="vm-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+          </div>
+          <h3>Our Vision</h3>
+          <p>Building a safe, just, and sustainable Bangladesh where every child grows up secure, educated, and creative; where youth are empowered with technology-driven knowledge, leadership, humanity, and innovative thinking; where women are free from discrimination and sexual harassment, moving forward confidently—so we can collectively build a knowledge-based, humane, and inclusive society.</p>
+        </div>
+        
+        <div class="vm-card mission-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="vm-icon-wrapper">
+            <div class="vm-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+          </div>
+          <h3>Our Mission</h3>
+          <ul class="mission-list">
+            <li>Empower children and youth to build a safe, knowledge-based society</li>
+            <li>Ensure protection of women and adolescents from discrimination and harassment</li>
+            <li>Build creative leadership through technology, education, and research</li>
+            <li>Engage youth and children in solving social and environmental issues</li>
+            <li>Present Bangladesh as a humane and innovative force internationally</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus Areas Section -->
+  <section class="focus-areas-section" id="focus">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Our <span class="gradient-text">Focus Areas</span></h2>
+        <p class="section-description">Comprehensive programmes for children, youth, and women empowerment</p>
+      </div>
+      
+      <div class="focus-tabs" data-aos="fade-up" data-aos-delay="100">
+        <button class="tab-btn active" data-tab="child">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          Child Focused
+        </button>
+        <button class="tab-btn" data-tab="youth">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+          Youth Focused
+        </button>
+        <button class="tab-btn" data-tab="women">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="8" r="7"/>
+            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+          </svg>
+          Women & Gender
+        </button>
+      </div>
+      
+      <!-- Child Focused Tab Content -->
+      <div class="tab-content active" id="child-content">
+        <div class="programmes-grid">
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="100">
+            <div class="programme-icon">🛡️</div>
+            <h4>Child Rights Campaign</h4>
+            <p>Awareness programmes against child labor, child marriage, and abuse</p>
+            <div class="programme-tags">
+              <span class="tag">Protection</span>
+              <span class="tag">Rights</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="200">
+            <div class="programme-icon">📖</div>
+            <h4>Child Education Support</h4>
+            <p>Educational support, books, and digital learning for underprivileged children</p>
+            <div class="programme-tags">
+              <span class="tag">Education</span>
+              <span class="tag">Digital</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="300">
+            <div class="programme-icon">💚</div>
+            <h4>Child Health & Mental Care</h4>
+            <p>Mental health support and counseling for children</p>
+            <div class="programme-tags">
+              <span class="tag">Health</span>
+              <span class="tag">Wellness</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="400">
+            <div class="programme-icon">🔒</div>
+            <h4>Child Safe Internet</h4>
+            <p>Online safety and digital awareness for children</p>
+            <div class="programme-tags">
+              <span class="tag">Safety</span>
+              <span class="tag">Digital</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="500">
+            <div class="programme-icon">🎨</div>
+            <h4>Child Creativity Hub</h4>
+            <p>Platform for storytelling, debate, arts, and creative workshops</p>
+            <div class="programme-tags">
+              <span class="tag">Creativity</span>
+              <span class="tag">Arts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Youth Focused Tab Content -->
+      <div class="tab-content" id="youth-content">
+        <div class="programmes-grid">
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="100">
+            <div class="programme-icon">💻</div>
+            <h4>Skill Development</h4>
+            <p>Training in coding, graphics, digital marketing, and entrepreneurship</p>
+            <div class="programme-tags">
+              <span class="tag">Coding</span>
+              <span class="tag">Design</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="200">
+            <div class="programme-icon">🛡️</div>
+            <h4>Youth Cyber Forum</h4>
+            <p>Online safety and cyberbullying prevention for youth</p>
+            <div class="programme-tags">
+              <span class="tag">Security</span>
+              <span class="tag">Awareness</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="300">
+            <div class="programme-icon">🔬</div>
+            <h4>Research & Innovation Hub</h4>
+            <p>Support for research, innovative projects, and startup development</p>
+            <div class="programme-tags">
+              <span class="tag">Innovation</span>
+              <span class="tag">Startup</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="400">
+            <div class="programme-icon">📹</div>
+            <h4>Media & Content Creation</h4>
+            <p>Creating digital content for awareness and change</p>
+            <div class="programme-tags">
+              <span class="tag">Media</span>
+              <span class="tag">Content</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="500">
+            <div class="programme-icon">👨‍💼</div>
+            <h4>Youth Leadership Platform</h4>
+            <p>Debate, knowledge sharing, and leadership development</p>
+            <div class="programme-tags">
+              <span class="tag">Leadership</span>
+              <span class="tag">Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Women & Gender Tab Content -->
+      <div class="tab-content" id="women-content">
+        <div class="programmes-grid">
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="100">
+            <div class="programme-icon">⚖️</div>
+            <h4>Gender Equality Campaign</h4>
+            <p>Engaging youth in preventing discrimination and sexual harassment against women</p>
+            <div class="programme-tags">
+              <span class="tag">Equality</span>
+              <span class="tag">Rights</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="200">
+            <div class="programme-icon">🏠</div>
+            <h4>Safe Space Network</h4>
+            <p>Creating safe spaces and support networks for women and adolescents</p>
+            <div class="programme-tags">
+              <span class="tag">Safety</span>
+              <span class="tag">Support</span>
+            </div>
+          </div>
+          
+          <div class="programme-card" data-aos="flip-left" data-aos-delay="300">
+            <div class="programme-icon">💪</div>
+            <h4>Women Empowerment</h4>
+            <p>Skill development and economic empowerment for women</p>
+            <div class="programme-tags">
+              <span class="tag">Empowerment</span>
+              <span class="tag">Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Counter Section -->
+  <section class="impact-section" id="impact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Our Impact</span>
+        <h2 class="section-title">Making <span class="gradient-text">Real Difference</span></h2>
+      </div>
+      
+      <div class="impact-grid">
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="impact-number" data-count="5000">0</div>
+          <p>Children & Youth Reached</p>
+        </div>
+        
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="impact-number" data-count="50">0</div>
+          <p>Active Programmes</p>
+        </div>
+        
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="impact-number" data-count="8">0</div>
+          <p>Divisions Covered</p>
+        </div>
+        
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="impact-number" data-count="100">0</div>
+          <p>Partner Organizations</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Future Plans Section -->
+  <section class="future-section" id="future">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What's Next</span>
+        <h2 class="section-title">Our <span class="gradient-text">Future Vision</span></h2>
+      </div>
+      
+      <div class="future-grid">
+        <div class="future-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="future-number">01</div>
+          <h4>Innovation Centers</h4>
+          <p>Establishing Child & Youth Innovation Centers in every division</p>
+        </div>
+        
+        <div class="future-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="future-number">02</div>
+          <h4>Tech Festival</h4>
+          <p>Organizing National Child & Youth Tech Festival</p>
+        </div>
+        
+        <div class="future-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="future-number">03</div>
+          <h4>Scholarship Programme</h4>
+          <p>Launching scholarships, internships, and mentorship programmes</p>
+        </div>
+        
+        <div class="future-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="future-number">04</div>
+          <h4>Digital Library</h4>
+          <p>Creating Digital Child & Youth Library and E-Learning Platform</p>
+        </div>
+        
+        <div class="future-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="future-number">05</div>
+          <h4>Safe Space Network</h4>
+          <p>Building Safe Space & Support Network for women and adolescents</p>
+        </div>
+        
+        <div class="future-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="future-number">06</div>
+          <h4>Global Partnership</h4>
+          <p>Creating International Child & Youth Partnership Network</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="cta-content" data-aos="zoom-in">
+        <div class="cta-badge">
+          <span class="cta-icon">🌟</span>
+          <span>Join the Movement</span>
+        </div>
+        <h2>Let's Script the Future, You Have Dream Of</h2>
+        <p>Be part of building a safe, inclusive, and innovative Bangladesh. Together, we can create lasting change.</p>
+        <div class="cta-buttons">
+          <button class="btn btn-white ripple-effect">
+            <span>Become a Member</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <button class="btn btn-outline ripple-effect">
+            <span>Contact Us</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <div data-include="footer"></div>
+
+    <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.min.js"></script>
+  <script type="module" src="/assets/js/home.js"></script>
+  <script type="module" src="/assets/js/header.js"></script>
+  <script type="module" src="/assets/js/footer.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

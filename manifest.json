@@ -1,0 +1,54 @@
+{
+  "name": "ScriptySphere - Youth Innovation Platform",
+  "short_name": "ScriptySphere",
+  "description": "Empowering youth and children through technology, education, and innovation in Bangladesh.",
+  "description_short": "Youth tech & innovation platform in Bangladesh",
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#0EA5E9",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["education", "technology", "social"],
+  "icons": [
+    {
+      "src": "/assets/img/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/img/screenshots/screenshot1.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "label": "ScriptySphere Home Screen"
+    },
+    {
+      "src": "/assets/img/screenshots/screenshot2.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "label": "ScriptySphere Programmes"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "share_target": {
+    "action": "/share/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
